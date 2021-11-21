@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my social media followers</title>
+    <link href="myfollowers.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a018575124.js" crossorigin="anonymous"></script>
+</head>
+<html>
+
+    <body>
+        <div class="container">
+            <div class="main">
+                <h1> My social media followers</h1>
+                <div class="media">
+                   <div class="facebook">
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                        <h2>facebook</h2>
+                        <span id="facebook"></span>
+                        <h3 id="kind"></h3>
+                   </div>
+                   <div class="twitter">
+                     <a href="#"><i class="fab fa-twitter-square"></i></a>
+                     <h2>twitter</h2>
+                     <span id="twitter"></span>
+                     <h3 id="life"></h3>
+                 </div>
+                    <div class="google">
+                     <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                     <h2>Google-plus</h2>
+                     <span id="google"></span>
+                     <h3 id="game"></h3>
+     
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <script>
+            var one= document.getElementById('facebook');
+            var two = document.getElementById('twitter');
+            var three = document.getElementById('google');
+            
+
+            var a=1;
+            setInterval(() =>{
+            if(a<480){
+             a++;
+             one.innerText=a;
+     
+            }
+            },1)
+            
+           
+            var b=1;
+            setInterval(() =>{
+            if(b<470){
+             b++;
+             two.innerText=b;
+     
+            }
+            },1)
+           
+            var c=1;
+            setInterval(() =>{
+            if(c<672){
+             c++;
+             three.innerText=c;
+     
+            }
+            },1)
+         </script>
+        </body>
+</html>
+
